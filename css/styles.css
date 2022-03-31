@@ -1,0 +1,176 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* служебный цвет текста rgba(255, 255, 255, 0.6) */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона служебный #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --service-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --secondary-font-color: #F5F4FA;
+    --service-font-color: #2F303A;
+    --white-color: #FFFFFF;
+}
+/* --- */
+/* css for studio page */
+/* --- */
+
+.page {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* убирает отображение значка пункта списка */
+.list-item {
+    list-style: none;
+}
+
+/* убирает визуальное отображение заголовков секций */
+.hiden-title {
+    visibility: hidden
+}
+
+
+/* шапка сайта */
+.page-header {
+
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-black {
+    color: var(--secondary-text-color);
+}
+
+.logo, .logo-black, .logo-white {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* навигация по сайту */
+.site-nav {
+
+}
+
+.nav-list {
+
+}
+
+.contacts {
+    color: var(--primary-text-color);
+}
+
+.contacts:hover, .contacts:focus {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--secondary-text-color);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--accent-color);
+}
+
+/* герой */
+.hero {
+    background-color: var(--service-font-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.hero-button:hover, .hero-button:focus {
+    color: var(--secondary-text-color);
+}
+
+/* преимущества компании */
+.company-benefits {
+
+}
+
+.title-color {
+    color: var(--secondary-text-color);
+}
+
+/* направления деятельности компании */
+.company-activities {
+
+}
+
+.activities-list {
+
+}
+
+/* наша команда */
+.company-team {
+    background-color: var(--secondary-font-color);
+}
+
+/* подвал сайта */
+.footer {
+    background-color: var(--service-font-color);
+}
+
+.logo-white {
+    color: var(--white-color);
+}
+
+.contacts-foter {
+    color: var(--service-text-color);
+}
+
+.contacts-foter:hover, .contacts-foter:focus {
+    color: var(--accent-color);
+}
+
+/* --- */
+/* css for poprtfolio page */
+/* --- */
+
+.filtr-button {
+    background-color: var(--secondary-font-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+.filtr-button:hover, .filtr-button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.portfolio-link {
+    color: var(--secondary-text-color);
+}
+
+.portfolio-link:hover, .portfolio-link:focus {
+    color: var(--primary-text-color);
+}
+
+/* убирает подчеркивание ссылки */
+.portfolio-link, .contacts, .nav-link, .logo {
+    text-decoration: none;
+}
+
+.post-address {
+    color: white;
+}
