@@ -141,7 +141,6 @@
 }
 
 .benefits-name {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -150,8 +149,6 @@
 }
 
 .benefits-description {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -164,7 +161,6 @@
 
 .activities-title,
 .team-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -182,7 +178,6 @@
 }
 
 .company-member {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -191,8 +186,6 @@
 }
 
 .specialty {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -205,7 +198,7 @@
 }
 
 .address {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -214,7 +207,7 @@
 }
 
 .logo-white {
-    color: var(--white-color);
+    color: white;
 }
 
 .post-address {
@@ -239,7 +232,6 @@
     color: var(--secondary-text-color);
     cursor: pointer;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -262,7 +254,6 @@
 }
 
 .project-name {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -270,8 +261,6 @@
 }
 
 .project-description {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
