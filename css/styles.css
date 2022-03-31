@@ -16,6 +16,7 @@
     --service-font-color: #2F303A;
     --white-color: #FFFFFF;
 }
+
 /* --- */
 /* css for studio page */
 /* --- */
@@ -31,15 +32,26 @@
     list-style: none;
 }
 
+/* убирает подчеркивание ссылки */
+.portfolio-link,
+.contacts,
+.nav-link,
+.logo,
+.contacts-foter {
+    text-decoration: none;
+}
+
 /* убирает визуальное отображение заголовков секций */
 .hiden-title {
     visibility: hidden
 }
 
-
 /* шапка сайта */
 .page-header {
-
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -50,9 +62,10 @@
     color: var(--secondary-text-color);
 }
 
-.logo, .logo-black, .logo-white {
-    font-family: 'Raleway';
-    font-style: normal;
+.logo,
+.logo-black,
+.logo-white {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -91,12 +104,27 @@
 
 .hero-title {
     color: var(--white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
     background-color: var(--accent-color);
     color: var(--white-color);
     cursor: pointer;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -112,9 +140,36 @@
     color: var(--secondary-text-color);
 }
 
+.benefits-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
 /* направления деятельности компании */
 .company-activities {
 
+}
+
+.activities-title,
+.team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .activities-list {
@@ -126,13 +181,44 @@
     background-color: var(--secondary-font-color);
 }
 
+.company-member {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.specialty {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 /* подвал сайта */
 .footer {
     background-color: var(--service-font-color);
 }
 
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
 .logo-white {
     color: var(--white-color);
+}
+
+.post-address {
+    color: white;
 }
 
 .contacts-foter {
@@ -147,13 +233,22 @@
 /* css for poprtfolio page */
 /* --- */
 
-.filtr-button {
+/* фильтр-кнопки */
+.filter-button {
     background-color: var(--secondary-font-color);
     color: var(--secondary-text-color);
     cursor: pointer;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.filtr-button:hover, .filtr-button:focus {
+/* перечень выполненных проектов */
+.filter-button:hover, .filter-button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
@@ -166,11 +261,18 @@
     color: var(--primary-text-color);
 }
 
-/* убирает подчеркивание ссылки */
-.portfolio-link, .contacts, .nav-link, .logo {
-    text-decoration: none;
+.project-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-.post-address {
-    color: white;
+.project-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
