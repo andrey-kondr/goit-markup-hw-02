@@ -45,7 +45,7 @@ body {
 
 /* убирает визуальное отображение заголовков секций */
 .hiden-title {
-    visibility: hidden
+    visibility: hidden;
 }
 
 /* шапка сайта */
@@ -99,6 +99,10 @@ body {
     color: var(--accent-color);
 }
 
+.current {
+    color: var(--accent-color);
+}
+
 /* герой */
 .hero {
     background-color: var(--service-font-color);
@@ -143,6 +147,7 @@ body {
 }
 
 .benefits-name {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -174,6 +179,15 @@ body {
     background-color: var(--secondary-font-color);
 }
 
+.members-card {
+    background-color: var(--white-color);
+          
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .company-member {
     font-weight: 500;
     font-size: 16px;
@@ -181,7 +195,11 @@ body {
     text-align: center;
 }
 
-.specialty {
+.members-photo {
+    
+}
+
+.speciality {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
